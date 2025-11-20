@@ -1,4 +1,12 @@
 /* estilos*/
+
+.body {
+     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}  
+
+
 .footer {
     background-color: #222;
     color: white;
