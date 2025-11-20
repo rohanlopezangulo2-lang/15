@@ -1,9 +1,82 @@
 /* estilos*/
-.footer {
-    background-color: #222;
-    color: white;
-    padding: 2rem 0;
-    margin-top: 2rem;
-    text-align: center;
 
+
+
+/* ====== ESTILO DARK MODE MODERNO ====== */
+
+/* Fondo general del sitio */
+body {
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #30363d !important;
+    border-radius: 0 0 12px 12px;
+    padding: 20px 0;
+}
+
+header .nav-link {
+    color: #c9d1d9 !important;
+    font-weight: 500;
+}
+
+header .nav-link:hover {
+    color: #58a6ff !important;
+}
+
+/* Hero principal */
+.hero-banner {
+    background: linear-gradient(145deg, #161b22, #0d1117);
+    padding: 80px 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.hero-banner h1 {
+    color: #ffffff;
+}
+
+.hero-banner p {
+    color: #8b949e;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #238636 !important;
+    border-color: #238636 !important;
+}
+
+.btn-primary:hover {
+    background-color: #2ea043 !important;
+}
+
+.btn-outline-secondary {
+    color: #c9d1d9 !important;
+    border-color: #30363d !important;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #30363d !important;
+}
+
+/* Footer */
+footer {
+    background: #161b22;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
+}
+
+/* Imágenes */
+img {
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
